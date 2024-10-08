@@ -32,13 +32,14 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'AppEstacionaPlus',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'AppEstacionaPlus'
+    
 ]
 
 MIDDLEWARE = [
@@ -85,7 +86,7 @@ DATABASES = {
 
         'USER': 'postgres',
 
-        'PASSWORD': 'root',
+        'PASSWORD': '123321',
 
         'HOST': 'localhost',
 
